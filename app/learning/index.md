@@ -9,7 +9,7 @@ Yeoman is a generic scaffolding system allowing the creation of any kind of app.
 
 Yeoman is language agnostic. It can generate projects in any language (Web, Java, Python, C#, etc.)
 
-Yeoman by itself doesn't make any decisions. Every decision is made by _generators_ which are basically plugins in the Yeoman environment. There's a [lot of publicly available generators](/generators) and its easy to [create a new one](/authoring) to match any workflow. Yeoman is always the right choice for your scaffolding needs.
+Yeoman by itself doesn't make any decisions. Every decision is made by _generators_ which are basically plugins in the Yeoman environment. There's a [lot of publicly available generators](/generators) and it's easy to [create a new one](/authoring) to match any workflow. Yeoman is always the right choice for your scaffolding needs.
 
 Here are some common use cases:
 
@@ -39,7 +39,7 @@ Then install the needed generator(s). Generators are npm packages named `generat
 npm install -g generator-webapp
 ```
 
-New Node and npm users might runs into permissions issues. These issues shows up in the form of `EACCESS` errors during installation. Refer to the [npm guide to fix permissions]
+New Node and npm users might run into permissions issues. These issues show up in the form of `EACCESS` errors during installation. Refer to the [npm guide to fix permissions]
 (https://docs.npmjs.com/getting-started/fixing-npm-permissions) if this happens to you.
 
 *npm is the package manager for [Node.js](https://nodejs.org/) and comes bundled with it.*
@@ -69,7 +69,7 @@ A lot of generators rely on build systems (like Grunt or Gulp), and package mana
 npm home generator-webapp
 ```
 
-Generators scaffolding complex frameworks are likely to provide additional generators to scaffold smaller parts of a project. These generators are usually referred to as _sub-generators_, and are accessed as `generator:sub-generator`.
+Generators that scaffold complex frameworks are likely to provide additional generators to scaffold smaller parts of a project. These generators are usually referred to as _sub-generators_, and are accessed as `generator:sub-generator`.
 
 Take `generator-angular` as an example. Once the full angular app has been generated, other features can be added. To add a new controller to the project, run the controller sub-generator:
 
